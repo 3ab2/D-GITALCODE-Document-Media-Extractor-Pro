@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.spec
+
+# Virtual environments
+venv/
+.venv/
+
+# Application artifacts
+output/*
+!output/.gitkeep
+logs/*
+!logs/.gitkeep
+settings.json
+
+# IDE / tooling
+.idea/
+.vscode/
+.qodo/
